@@ -28,18 +28,18 @@ body {
     background-color: #f5f5f5;
 }
 
-
-h1 {
-    font-weight: 500;
-}
-
 .zbozi {
     width: 670px;
     height: 440px;
-    border: 2px solid cyan;
+    /* border: 2px solid cyan; */
+    border-radius: 2%;
     margin: auto;
     display: flex;
     box-shadow: 2px 3px 10px lightgray;
+}
+
+h1 {
+    font-weight: 500;
 }
 
 .vizual {
@@ -100,7 +100,7 @@ h1 {
 
 .detaily {
     flex-grow: 1;
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     flex-basis: 400px;
     padding: 30px;
     background-color: white;
@@ -108,13 +108,26 @@ h1 {
 }
 
 .nazev {
-    border: 2px solid orange;
+    /* border: 2px solid orange; */
     margin: 0;
     padding: 0;
     font-size: 20px;
     font-weight: 500;
     white-space: nowrap;
     text-transform: uppercase;
+}
+
+.produkt {
+    /* border: 2px solid red; */
+    margin: 10px 0px;
+    padding: 0;
+    color: #959595;
+}
+
+.popis {
+    margin: 20px 0px 30px 0px;
+    padding: 0;
+    /* border: 2px solid red; */
 }
 
 hr {
@@ -130,32 +143,40 @@ hr {
     justify-content: space-between;
     padding: 5px;
     margin: 0;
-    border: 2px solid palevioletred;
+    /* border: 2px solid palevioletred; */
 }
 
 .parametr {
-    border: 2px solid cyan;
+    /* border: 2px solid cyan; */
     margin: 30px 0px 0px 0px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 li {
 
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 4px;
 }
 
 .vybrana {
-    color: orange;
-    border: 2px solid orange;
+    color: #f15f42;
+    border: 1px solid #f15f42;
     border-radius: 50%;
     text-align: center;
 }
 
 .tlacitko {
-    background-color: orange;
-    padding: 10px 20px;
+    background-color: #f15f42;
+    color: white;
+    padding: 10px 30px;
     border-radius: 5px;
     position: absolute;
     left: 30px;
     bottom: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
 }
