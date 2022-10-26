@@ -25,6 +25,7 @@ body {
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 400;
+    background-color: #f5f5f5;
 }
 
 
@@ -32,3 +33,129 @@ h1 {
     font-weight: 500;
 }
 
+.zbozi {
+    width: 670px;
+    height: 440px;
+    border: 2px solid cyan;
+    margin: auto;
+    display: flex;
+    box-shadow: 2px 3px 10px lightgray;
+}
+
+.vizual {
+    background: linear-gradient(#06d7c1, #50cc49);
+    padding: 30px;
+    flex-grow: 1;
+    flex-basis: 400px;
+    position: relative;
+    /* border: 2px solid magenta; */
+}
+
+.logo {
+    /* border: 2px solid blue; */
+    margin-bottom: 30px;
+}
+
+.slogan { 
+    /* border: 2px solid green; */
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+
+.cenovka {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.cena {
+    color: white;
+    /* border: 2px solid blue; */
+    font-size: 28px;
+    font-weight: 500;
+    /* position: absolute;
+    bottom: 46px;
+    right: 30px; */
+}
+
+.zaruka {
+    color: white;
+    /* border: 2px solid blue; */
+    font-size: 12px;
+    font-weight: 400;   
+    /* position: absolute;
+    right: 30px;
+    bottom: 30px; */
+}
+
+.bota {
+ position: absolute;
+ bottom: 0px;
+ right: 10px;
+ /* border: 2px solid lime; */
+}
+
+/* konec zelené části */
+
+.detaily {
+    flex-grow: 1;
+    border: 2px solid yellow;
+    flex-basis: 400px;
+    padding: 30px;
+    background-color: white;
+    position: relative;
+}
+
+.nazev {
+    border: 2px solid orange;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: 500;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+hr {
+    height: 1.5px;
+    background-color: #06d7c1;
+    border: none;
+    margin: 0;
+}
+
+.velikosti {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 0;
+    border: 2px solid palevioletred;
+}
+
+.parametr {
+    border: 2px solid cyan;
+    margin: 30px 0px 0px 0px;
+}
+
+li {
+
+    border: 2px solid red;
+    padding: 4px;
+}
+
+.vybrana {
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.tlacitko {
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
