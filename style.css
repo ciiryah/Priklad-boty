@@ -32,7 +32,7 @@ body {
     width: 670px;
     height: 440px;
     /* border: 2px solid cyan; */
-    border-radius: 2%;
+    border-radius: 10px;
     margin: auto;
     display: flex;
     box-shadow: 2px 3px 10px lightgray;
@@ -44,6 +44,7 @@ h1 {
 
 .vizual {
     background: linear-gradient(#06d7c1, #50cc49);
+    border-radius: 10px 0px 0px 10px;
     padding: 30px;
     flex-grow: 1;
     flex-basis: 400px;
@@ -65,6 +66,7 @@ h1 {
 
 .cenovka {
     position: absolute;
+    text-align: right;
     bottom: 30px;
     right: 30px;
 }
@@ -92,7 +94,7 @@ h1 {
 .bota {
  position: absolute;
  bottom: 0px;
- right: 10px;
+ right: 0px;
  /* border: 2px solid lime; */
 }
 
@@ -101,6 +103,7 @@ h1 {
 .detaily {
     flex-grow: 1;
     /* border: 2px solid yellow; */
+    border-radius: 0px 10px 10px 0px;
     flex-basis: 400px;
     padding: 30px;
     background-color: white;
